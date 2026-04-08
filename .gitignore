@@ -1,0 +1,33 @@
+# ── Virtual environment ──
+.venv/
+
+# ── Models (large files, don't commit) ──
+models/
+*.gguf
+
+# ── Auto-generated config (user-specific) ──
+model_config.bat
+
+# ── Python cache ──
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# ── AXIOM runtime data ──
+.axiom/
+logs/
+checkpoints/
+
+# ── IDE ──
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ──
+Thumbs.db
+.DS_Store
+desktop.ini
